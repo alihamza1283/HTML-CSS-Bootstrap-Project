@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: poppins;
+    line-height: 1.7;
+    color: #516171;
+}
+h1,h2,h3{
+    font-weight: 700;
+    color: #092032;
+}
+.title{
+    font-weight: 700;
+}
+a{
+    color: #092032;
+}
+img{
+    width: 100%;
+}
+
+/*Top Navigation*/
+
+.top-nav{
+    background-color: #ff4d29;
+}
+.top-nav p{
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: #fff;
+}
+
+/* Main Navbar */
+
+.navbar{
+    box-shadow: 0px 6px 30px  rgba(0, 0, 0, 0.08);
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar-brand span{
+    color: #ff4d29;
+}
+.btn{
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.btn-brand{
+    background-color: #ff4d29;
+    color: #fff;
+    border-color: #ff4d29;
+}
+.btn-brand:hover{
+    color: #ff4d29;
+    border-color: #ff4d29;
+}
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:active{
+    color: #ff4d29;
+}
+
+/* Slider */
+
+.slide1{
+background: linear-gradient(rgba(6, 23, 37, 0.54),rgba(5, 27, 44, 0.496)), url(/assets/images/bg_banner1.jpg);
+}
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide2{
+    background: linear-gradient(rgba(4, 25, 41, 0.54),rgba(9, 32, 50, 0.496)), url(/assets/images/bg_banner2.jpg);
+  
+}
+.owl-prev,.owl-next{
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff !important;
+    color: #092032 !important;
+    border-radius: 70px !important;
+}
+button.owl-prev {
+
+    left: 1%;  
+}
+button.owl-next {
+
+    right: 1%;
+}
+
+
+/* About */
+
+.info-box img{
+    width: 80px;
+}
+
+/* Mileston */
+
+#milestone {
+    background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(/assets/images/bg_banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#milestone h1,
+#milestone p {
+    color: #fff;
+}
+
+/* Services */
+.intro{
+    text-align: center;
+}
+.intro p{
+    max-width: 700px;
+}
+.subtitle{
+color: #ff4d29;
+font-size: 18px;
+font-weight: 500;
+}
+
+/* Services */
+.service-box{
+    padding: 30px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+.service-box img{
+    width: auto;
+}
+
+/* pORTFOLIO */
+.project {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.project h6 {
+    font-weight: 400;
+}
+
+.project h6::before {
+    content: "";
+    height: 2px;
+    width: 30px;
+    display: inline-block;
+    background-color: #ff4d29;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+.project .overlay {
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(9, 32, 50, 0.0) 0%, rgba(9, 32, 50, 0.8));
+}
+
+.project .content {
+    position: absolute;
+    left: 10%;
+    bottom: 10%
+}
+
+.project h2,
+.project h6 {
+    color: #fff;
+}
